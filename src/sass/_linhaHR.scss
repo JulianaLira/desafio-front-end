@@ -1,0 +1,32 @@
+@import "sass/variaveis";
+
+.linhaHR {
+    overflow: auto;
+    width: 85%;
+    height: 40px;
+    background-color: $WHITE; 
+    margin-top: 100px;
+    align-self: auto;
+    z-index: 999999;
+  }
+
+  
+.linha {
+  overflow: auto;
+  width: 90%;
+  height: 50px;
+  background-color: $WHITE; 
+  border-top: 2px dashed  $GRAY;
+  align-self: auto;
+  z-index: 999999;
+}
+
+ 
+.linha-mapa {
+  overflow: auto;
+  width: 90%;
+  height: 50px;
+  background-color: $WHITE; 
+  align-self: auto;
+  z-index: 999999;
+}

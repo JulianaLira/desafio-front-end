@@ -1,0 +1,75 @@
+@import "sass/variaveis";
+
+.indicator { 
+    position: relative;
+    cursor: pointer;
+    background-color: $WHITE;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 5px;
+    border-style: solid;
+    border-color: $BLACK;
+    --webkit-transition: 0.3s;
+ 
+    &.active {
+        color: $WHITE;
+        background: $WHITE;
+        border-color: $RED;
+    }
+    
+    &.hover{
+        border-color: $RED;
+        --webkit-transition: 0.3s;
+      }
+  }
+  .react-slideshow-container+div.indicators{
+      display:--webkit-box;
+      display:--ms-grid;
+      position:absolute;
+      -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+      -webkit-box-pack:center;
+      -ms-flex-pack:center;
+      justify-content:center;
+      margin-top:-50px;
+      z-index: 50; 
+      left: 0;
+      right: 0;
+  }
+  
+  .next-slide, .prev-slide img{
+      position: absolute;
+      cursor: pointer;
+      width: 56px;
+      z-index: 999;
+    }
+
+    .next-slide {
+      --webkit-transition: 0.2s;
+      --moz-transition: 0.2s;
+      width: 56px;
+      opacity: 0.8;
+      right: 90px;
+      margin-top: -38px;
+    
+      &:hover{
+        --webkit-transition: 0.2s;
+        --moz-transition: 0.2s;
+        opacity: 1.0;
+      }
+  }
+    .prev-slide {
+      --webkit-transition: 0.2s;
+      --moz-transition: 0.2s;
+      margin-left: 90px;
+      width: 56px;
+      opacity: 0.8;
+   
+    
+    &:hover{
+      --webkit-transition: 0.2s;
+      opacity: 1.0;
+    }
+
+  }

@@ -1,0 +1,102 @@
+@import "sass/variaveis";
+
+.container{
+  width: 1090px;
+  margin: 0 auto;
+	padding: 0;
+}
+
+.img-logo {
+  width: 350px;
+  margin-top: 52px;
+  float: left;
+}
+
+header{
+  width: 100%;
+  height: 151px;
+  //position: fixed;     
+  background: $WHITE;
+  z-index: 1;
+  border-bottom: 5px solid $RED;
+}
+
+.menu-list .menu-title a{
+  font-family: $FONT;
+  display: block;
+  color: $RED;
+  font-size: 22px;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: 0.2s;
+  transition: all 300ms ease;
+  font-weight: bold;
+  margin-top: -1px;
+}
+
+.menu-list{
+  font-family: $FONT;
+  float: right;
+  margin-top: 90px;
+
+
+    & ul li{
+      float: left;
+      
+    }
+    &  li a{
+      -webkit-transition: all 300ms ease;
+      -moz-transition: 0.2s;
+      transition: all 300ms ease;
+      margin: 15px;
+      color: #000;
+      font-size: 22px;
+    }
+    & li a:hover{
+      -webkit-transition: all 300ms ease;
+      -moz-transition: 0.2s;
+      transition: all 300ms ease;
+      color: $RED;
+    }
+
+    & ul li ul li{
+      margin-top: 9px;
+    }
+    & ul li ul li a{
+      color: $BLACK;
+    }
+    & ul li ul li a:hover{
+      color: $BLACK;
+      font-weight: bold;
+    }
+    & ul li:hover > .sub-menu-list{
+      display: block;
+    }
+
+}
+
+.sub-menu-list{
+  z-index: 9999999;
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: $WHITE;
+  border-bottom: 5px solid $RED;
+}
+
+
+.seta-baixo:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid $BLACK;
+  margin-left:  10px;
+}
+

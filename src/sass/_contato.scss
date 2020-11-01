@@ -1,0 +1,90 @@
+
+/*----CONTATOS----*/
+.container-contatos{
+    overflow: auto;
+    width: 100%;
+    margin-top: -5px;
+  }
+  /*----CONTATOS(left)----*/
+  .container-left{
+    width: 50%;
+    height: 750px;
+    float: left;
+    background-color: white;
+  }
+  .contatos-left{
+    width: 545px;
+    float: right;
+    margin-top: 135px;
+  }
+  .contatos-left h2{
+    font-family: "Georgia", arial;
+    font-size: 29px;
+  }
+  .contatos-left h3{
+    font-family: "Georgia", arial;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .contatos-left p{
+    font-family: "Verdana", arial;
+    font-size: 17px;
+    margin-top: 25px;
+  }
+  
+  /*----CONTATOS(right)----*/
+  .container-right{
+    width: 50%;
+    height: 750px;
+    float: right;
+    background-color: #b22d31;
+  }
+  .contatos-right{
+    width: 545px;
+    float: left;
+    margin-top: 210px;
+  }
+  .contatos-right h2{
+    font-family: "Georgia", arial;
+    font-size: 22px;
+    color: white;
+    margin-left: 30px;
+  }
+  .contatos-right p{
+    font-family: "Verdana", arial;
+    font-size: 19px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .contatos-right input{
+    width: 515px;
+    height: 35px;
+    margin-left: 30px;
+  }
+  .contatos-right textarea{
+    width: 515px;
+    height: 130px;
+    margin-left: 30px;
+  }
+  .contatos-right button{
+    --webkit-transition: 0.2s;
+    --moz-transition: 0.2s;
+    font-family: "Verdana", arial;
+    text-align: center;
+    border: none;
+    font-size: 19px;
+    color: white;
+    background-color: black;
+    float: right;
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .contatos-right button:hover{
+    --webkit-transition: 0.2s;
+    --moz-transition: 0.2s;
+    background-color: .0b0b0b;
+  }
+  

@@ -1,0 +1,133 @@
+@import "sass/variaveis";
+/* Flex */
+// .flex {
+// 	display: flex;
+// }
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.container-full{
+    font-family: $FONT;
+    width: 1100px;
+    margin-top: 100px;
+    height: 600px;
+    background-color: $WHITE; 
+    // flex-wrap: wrap;
+    // display: flex;
+    align-items: center;
+
+    
+    & h2{
+      font-family: $FONT;
+      float: left;
+      margin-top: 5px;
+      font-size: 29px;
+    }
+}
+  .container-noticia{
+   // width: 1090px;
+   // flex-wrap: wrap;
+   // display: flex;
+    align-items: center;  
+  }
+  
+  .container-filtro{
+   width: 100%;
+    height: 80px;
+  }
+  
+  .select-filtro{
+    width: 280px;
+    height: 30px;
+    float: right;
+ 
+    
+    & p{
+      float: left;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 3px;
+      font-size: 19px;
+    }
+    
+    & select{
+      background-color: $FONT;
+      border-radius: 3px;
+    
+      font-size: 17px;
+      width: 160px;
+      height: 30px;
+    }
+    
+    & option{
+      background-color: $BLACK;
+      color: $WHITE;
+    }
+}
+  /*Card de Noticias*/
+  
+
+  .card-editoriais{
+    overflow: auto;
+    width: 300px;
+    border-left: 4px solid $RED;
+    float: left;
+    margin-right: 60px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+ 
+  .container-card{
+    padding-left: 15px;
+    padding-right: 15px;
+  
+   
+    & a{
+      text-align: left;
+    }
+    
+    & h5{
+      font-family: $FONT;
+      margin-top: 22px;
+      color: $BLACK;
+      font-size: 19px;
+    }
+
+}
+  .card-data{
+    font-family: $FONT;
+    float: left;
+    margin-top: 5px;
+  }
+  .card-editoria{
+    font-family: $FONT;
+    float: right;
+    margin-top: 5px;
+  }
+  .card-img{
+    margin-top: 12px;
+    width: 100%;
+  }
+  .card-titulo{
+    font-family: $FONT;
+    margin-top: 21px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .card-texto{
+    font-family: $FONT;
+    font-size: 17px;
+    margin-top: 12px;
+    color: $GRAY;
+    text-align: left;
+  }
+  
+  .texto-hiden{
+    min-width: 0;
+    text-overflow: ellipsis;
+    text-overflow: "\2026" "\2026";
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  

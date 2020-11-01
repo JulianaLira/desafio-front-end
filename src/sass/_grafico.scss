@@ -1,0 +1,56 @@
+@import "sass/variaveis";
+
+.texto-grafico-left{
+  width: 215px;
+  padding: 15px;
+  float: left;
+  font-family: $FONT;
+  font-size: 17px;
+  margin-top: 120px;
+  text-align: justify;
+}
+
+.texto-grafico-right{
+  width: 215px;
+  padding: 15px;
+  float: right;
+  font-family: $FONT;
+  font-size: 17px;
+  margin-top: 120px;
+  margin-bottom: 15px;
+  padding-top: 52px;
+  text-align: justify;
+}
+.texto-grafico-left h3, .texto-grafico-right h3{
+  font-family: $FONT;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.container-chart{
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.container-chart h2{
+  margin-bottom: 48px;
+  margin-left: -40px;
+}
+
+.charts{
+  width: 50%;
+}
+
+.chart-Text{
+  width: 50%;   
+}
+
+.chart-Text p{
+  column-count: 2;
+}
+
+
+.chart-Text h3{
+  margin-bottom: 15px;
+}

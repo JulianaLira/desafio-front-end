@@ -1,0 +1,21 @@
+@import "react-slideshow-image/dist/styles.css";
+@import "sass/header";
+@import "sass/slide";
+@import "sass/noticias";
+@import "sass/linhaHR";
+@import "sass/grafico";
+@import "sass/mapa";
+@import "sass/contato";
+@import "sass/footer";
+
+ *{
+     list-style: none;
+     text-decoration: none;
+     margin: 0 auto;
+     padding: 0;
+   }
+
+.App{
+  text-align: justify;
+}
+   
